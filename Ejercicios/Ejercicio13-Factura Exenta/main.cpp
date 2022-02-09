@@ -11,7 +11,7 @@
         int descuento = 0; 
         double calculoDescuento = 0; 
         double calculoImpuesto = 0;
-        char facturaexcenta = 0;
+        char facturaexenta = 0;
 
         cout << "Ingrese el subtotal de la factura: ";
         cin >> subtotal;
@@ -19,21 +19,21 @@
         cout << "Ingrese el descuento (0, 10, 15, 20)";
         cin >> descuento;
         
-        cout << "Es factura excenta escriba S o N: ";
-        cin >> facturaexcenta;
+        cout << "Es factura exenta escriba S o N: ";
+        cin >> facturaexenta;
         
         
         // Proceso
         
         
-        if (facturaexcenta == 'S')
+        if (facturaexenta == 'S')
         calculoImpuesto= 0;
-        if (facturaexcenta == 's')
+        if (facturaexenta == 's')
        calculoImpuesto= 0;
        
-		else if (facturaexcenta== 'N')
+		else if (facturaexenta== 'N')
         calculoImpuesto = (subtotal - calculoDescuento) * 0.15;
-        else if (facturaexcenta== 'n')
+        else if (facturaexenta== 'n')
        calculoImpuesto = (subtotal - calculoDescuento) * 0.15;
        
          calculoDescuento = (subtotal * descuento) / 100;
