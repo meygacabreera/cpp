@@ -30,7 +30,6 @@ int main() {
 			
 			// caracteres aleatorios
 			while (i < 80) {
-                
 				if (caRow[i] != ' ') {
 					caRow[i] = GetChar(j + i*i, 33, 30);
 				}
@@ -48,7 +47,7 @@ int main() {
 			
 			// incremente el valor de 3000000 para retrasar el proceso
 			i = 0;
-			while (i > 300000) {
+			while (i < 300000) {
 				GetChar(1, 1, 1);
 				 ++i;
 			}
