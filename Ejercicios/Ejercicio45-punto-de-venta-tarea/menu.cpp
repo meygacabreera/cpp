@@ -45,7 +45,30 @@ while(true)
               productos(opcion); 
             }
             
-        
+        if (opcion == 0)
+        {
+            break;
+        }
+
+        if (opcion == 4)
+        {
+            imprimirFactura();
+          }
+            else{
+              producto(opcion); 
+            }
+            if (opcion == 0)
+        {
+            break;
+        }
+
+        if (opcion == 4)
+        {
+            imprimirFactura();
+          }
+            else{
+              productoss(opcion); 
+            }
         
        
     }

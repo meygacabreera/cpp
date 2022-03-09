@@ -14,7 +14,7 @@ void productoss(int opcion)
       int opcionProducto = 0;
     switch (opcion)
     {
-    case 1:
+    case 3:
 
         cout << "Repostera" << endl;
         cout << "*************" << endl;
