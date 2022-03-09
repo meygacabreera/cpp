@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 using namespace std;
@@ -25,4 +26,4 @@ void imprimirFactura()
     cout << endl;
     cout << endl;
     system("pause");
-}                                               
+}    

@@ -25,7 +25,7 @@ int opcionProducto = 0;
            agregarProducto("Capuccino", 1, 40);
            break;
        case 2:
-           agregarProducto("Expressp", 1, 30);
+           agregarProducto("Expresso", 1, 30);
            break;
        default:
        {
