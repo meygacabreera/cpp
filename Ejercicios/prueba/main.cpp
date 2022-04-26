@@ -4,6 +4,7 @@
 #include "producto.h"
 #include "productos.h"
 #include "productoss.h"
+#include "clientes.h"
 
 using namespace std; 
 

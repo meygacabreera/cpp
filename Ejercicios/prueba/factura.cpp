@@ -5,6 +5,7 @@
 #include "producto.h"
 #include "productos.h"
 #include "productoss.h"
+#include "clientes.h"
 
 using namespace std;
 
@@ -38,19 +39,16 @@ void imprimirFactura()
     cout << endl;
     cout << endl;
 
-
-
- cout << "ISV 15%: " << ISV;
+    cout << "ISV 15%: " << ISV;
     cout << endl;
     cout << endl;
-
-
+    
     cout << "Tarifa de envio: " << Tarifadeenvio;
     cout << endl;
     cout << endl;
 
     
-    cout << "Total de Venta: " << total;
+    cout << "Total a pagar: " << total;
     cout << endl;
     cout << endl;
     system("pause");

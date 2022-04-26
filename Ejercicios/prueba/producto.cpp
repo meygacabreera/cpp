@@ -4,6 +4,7 @@
 #include "producto.h"
 #include "productos.h"
 #include "productoss.h"
+#include "clientes.h"
 
 using namespace std;
 
@@ -19,11 +20,11 @@ int opcionProducto = 0;
     {
     case 2:
 
-        cout << "Bebidas Frias" << endl;
-        cout << "*************" << endl;
-        cout << "1 - Limonada" << endl;
-        cout << "2 - Fresco" << endl;
-        cout << "3 - Cafe Mocca Helado" << endl;
+        cout << "Burger King" << endl;
+        cout << "**********" << endl;
+        cout << "1 - King Box" << endl;
+        cout << "2 - King Pack" << endl;
+        cout << "3 - Family Bundle" << endl;
         
         cout << endl;
         cout << "Ingrese una opcion: ";
@@ -31,13 +32,13 @@ int opcionProducto = 0;
        switch (opcionProducto)
        {
        case 1:
-           agregarProducto("1 Limonada Lps 25.00", 1, 25);
+           agregarProducto("1 King Box Lps 139.00", 1, 139);
            break;
        case 2:
-           agregarProducto("1 Fresco   Lps 30.00", 1, 30);
+           agregarProducto("1 King Pack   Lps 439.00", 1, 439);
            break;
        case 3:
-           agregarProducto("1 Cafe Mocca Helado  Lps 55.00", 1, 55);
+           agregarProducto("1 Family Bundle   Lps 429.00", 1, 429);
            break;
        default:
        {
