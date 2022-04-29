@@ -1,14 +1,17 @@
 #include <iostream>
-#include "seguridad.h"
 #include "menu.h"
+#include "factura.h"
+#include "producto.h"
+#include "productos.h"
+#include "productoss.h"
+#include "clientes.h"
+
 using namespace std; 
+
+extern void menu();
 
 int main(int argc, char const *argv[])
 {
-bool respuesta = login ();
-
-if (respuesta == true) {
-menu ();
-}
+   menu();
     return 0;
 }
